@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 function Sidenav() {
   return (
-    <div>
-      <nav className="float-left h-dvh bg-gray-800 text-white w-56">
+    <div> 
+      <nav className="h-dvh float-left bg-gray-800 text-white w-56">
         <ul>
           <li className="m-3">
             <Link to="first">First Year</Link>
